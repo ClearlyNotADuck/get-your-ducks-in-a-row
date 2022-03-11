@@ -1,0 +1,210 @@
+@font-face {
+    font-family: 'Hubballi';
+    src: url(./fonts/Hubballi-Regular.ttf);
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: rgb(247, 247, 243);
+    font-family: 'Hubballi', sans-serif ;
+}
+
+.top-container {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+    padding-right: 0;
+
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    min-width: 150px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 100px;
+    margin-right: 10px;   
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.logo h1 {
+    min-width: 150px;
+    min-height: 100px;
+    max-width: 300px;
+    max-height: 100px;
+    color: hsl(29, 100%, 50%);
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    margin-top: 0px !important;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .logo h1 {
+    font-size: 1.5rem;
+    }
+    .logo img {
+        max-width: 200px;
+    }
+}
+
+nav {
+    display: inline-flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: hsl(29, 100%, 50%);
+    font-size: 1.5rem;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    li a {
+    font-size: 1.25rem;
+    }
+    
+}
+
+li a:hover {
+    color: hsl(29, 79%, 47%);;
+}
+
+.mission {
+    background-image: url(./img/background2.avif );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center
+}
+
+.mission h3 {
+    color: antiquewhite;
+    align-self: center;
+    font-size: 2rem !important;
+    letter-spacing: 3px;
+    
+}
+
+@media screen and (max-width: 945px) {
+    .mission h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    }
+    
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.services {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 25px;
+}
+.services img{
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px 0px 0px;
+}
+
+.services a {
+    text-decoration: none;
+    color: hsl(29, 100%, 50%);
+    font-size: 1.25rem;
+}
+
+.services a:hover {
+    color: hsl(29, 79%, 47%);;
+}
+
+.services h5 {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.services h3 {
+    margin-bottom: 8px;
+}
+
+.title {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-size: 2.3rem;
+    color: hsl(29, 100%, 50%);
+    letter-spacing: 3px;
+}
+
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.team {
+    width: 450px;
+    height: 450px;
+    
+}
+.team img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.statement {
+    font-style: italic;
+}
+
+.team h5 {
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.team  h3 {
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+.contact-container {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-container h3{
+    margin-top: 100px;
+}
